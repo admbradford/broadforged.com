@@ -13,9 +13,7 @@
         <h1 class="display-3">{{ name }}</h1>
         <p class="subheading" v-if="description && description !== ''">{{ description }}</p>
       </div>
-      <v-card>
-        <ScreenShots v-if="screenShotsList && screenShotsList.length > 0" :screenShots="screenShotsList" />
-      </v-card>
+      <div v-html="gameEmbedCode"></div>
     </v-flex>
   </v-layout>
 </template>
