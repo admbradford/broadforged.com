@@ -43,15 +43,8 @@ export default {
   modules: [
     '@nuxtjs/vuetify',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
     '@nuxtjs/pwa',
   ],
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-  axios: {
-  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
@@ -76,5 +69,10 @@ export default {
     */
     extend(config, ctx) {
     }
-  }
+  },
+
+  env: {
+    contentfulSpaceId: 'e16swsp03f9r',
+    contentfulContentAccessToken: '6tQCgSgDJychwkMzkDP_8oh1CLNL3FhtKWCQMp3yhQo',
+  },
 }
