@@ -1,4 +1,6 @@
-# broadforged.com
+# broadforged.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a14155ee-cd38-4b9a-a03a-a3d940a2e0e6/deploy-status)](https://app.netlify.com/sites/lucid-turing-1a338f/deploys)
 
 > 
 
